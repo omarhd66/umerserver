@@ -3,5 +3,3 @@ kind: Kustomization
 resources:
 - https://github.com/knative/operator/releases/download/knative-v1.21.1/operator.yaml
 
-patches:
-- path: ns.yaml
