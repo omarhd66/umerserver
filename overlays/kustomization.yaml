@@ -4,7 +4,3 @@ kind: Kustomization
 bases:
 - ../base
 
-- op: replace
-  path: /resources/0
-  value: https://github.com/knative/operator/releases/download/knative-v1.21.1/operator.yaml
-
